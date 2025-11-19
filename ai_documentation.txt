@@ -1,0 +1,25 @@
+Prompt: How do you log scale the color scale in seaborn heatmap?
+Response: 
+
+To apply a log-scaled color scale in a Seaborn heatmap, the key is to use matplotlib’s normalizations (e.g., LogNorm) and pass it to Seaborn through the norm= argument.
+
+Here’s the canonical way:
+
+✅ Log-scale the colorbar of a Seaborn heatmap
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.colors import LogNorm
+
+# Example data
+data = np.random.rand(10, 10) * 1000 + 1   # +1 so no zeros (log can't handle 0)
+
+plt.figure(figsize=(8, 6))
+
+sns.heatmap(
+    data,
+    norm=LogNorm(),   # <- THIS LOG-SCALES THE COLORS
+    cmap='viridis'
+)
+
+plt.show()
