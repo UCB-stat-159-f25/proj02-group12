@@ -6,6 +6,8 @@ In this project, we designed and implemented a modern NLP pipeline to analyze re
 
 MyST link: https://ucb-stat-159-f25.github.io/proj02-group12
 
+Binder link for Project Repo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group12/main)   
+
 Part 1: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group12/main?labpath=nlp-P01.ipynb)     
 Part 2: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group12/main?labpath=nlp-P02.ipynb)     
 Part 3: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group12/main?labpath=nlp-P03.ipynb)     
